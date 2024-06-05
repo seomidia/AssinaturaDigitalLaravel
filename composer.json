@@ -20,5 +20,8 @@
             ]
         }
     },
-    "require": {}
+    "require": {
+        "seomidia/assinatura-digital": "^1.0"
+    }
 }
+
