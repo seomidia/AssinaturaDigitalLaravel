@@ -1,4 +1,4 @@
-@extends('layouts.app-assignature')
+@extends('assinatura-digital::layouts.app-assignature')
 
 @section('content')
 
