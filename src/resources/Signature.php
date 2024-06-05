@@ -1,6 +1,6 @@
 <?php 
 
-namespace EletronicSignature;
+namespace Seomidia\AssinaturaDigital;
 
 use App\Models\Contratos;
 use App\Models\Clientes;
