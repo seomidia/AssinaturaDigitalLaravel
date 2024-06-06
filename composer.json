@@ -1,0 +1,27 @@
+{
+    "name": "seomidia/assinatura-digital",
+    "description": "Assinatura digital de contratos  pdf",
+    "authors": [
+        {
+            "name": "Kaio",
+            "email": "kaio@seomidia.com.br"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Seomidia\\AssinaturaDigital\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Seomidia\\AssinaturaDigital\\AssinaturaDigitalServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
