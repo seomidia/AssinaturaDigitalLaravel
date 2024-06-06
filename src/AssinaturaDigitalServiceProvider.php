@@ -13,6 +13,10 @@ class AssinaturaDigitalServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        // Carregue rotas, views, migrações, etc.
+        $this->loadViewsFrom(__DIR__.'/src/resources/views', 'assinatura-digital');
+
+        $this->publishes([
+            __DIR__.'/src/resources/views' => resource_path('views/vendor/assinatura-digital'),
+        ]);
     }
 }

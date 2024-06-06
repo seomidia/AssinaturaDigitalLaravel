@@ -10,18 +10,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-<<<<<<< HEAD
             "Seomidia\\AssinaturaDigital\\": "src"
         }
     },
     "config": {
         "sort-packages": true
     },
-=======
-            "seomidia\\assinatura-digital\\": "src/"
-        }
-    },
->>>>>>> cab6a70c8c685eaddc64505ca1e49fbc37b670c1
     "extra": {
         "laravel": {
             "providers": [
@@ -29,13 +23,5 @@
             ]
         }
     },
-<<<<<<< HEAD
     "require": {}
 }
-=======
-    "require": {
-        "seomidia/assinatura-digital": "^1.0"
-    }
-}
-
->>>>>>> cab6a70c8c685eaddc64505ca1e49fbc37b670c1
