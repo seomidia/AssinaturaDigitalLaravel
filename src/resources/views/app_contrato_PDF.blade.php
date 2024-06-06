@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @extends('layouts.app-assignature')
+=======
+@extends('assinatura-digital::layouts.app-assignature')
+>>>>>>> cab6a70c8c685eaddc64505ca1e49fbc37b670c1
 
 @section('content')
 
