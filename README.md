@@ -1,7 +1,7 @@
 
 # Instalacao
 
-Instale o pacote por composer require seomidia/assinatura-digital
+Instale o pacote por *composer require seomidia/assinatura-digital*
 
 # Configurar Providers
 
